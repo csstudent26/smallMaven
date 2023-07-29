@@ -19,7 +19,7 @@ A Maven project is a software project managed by the Apache Maven build automati
 While Maven is associated very much with Java (and I am using Java in this particular Program), it should be noted that Maven can also be used with other Programming Languages. 
 
 ##  What is a Snapshot File?
-
+The "Snapshot File" is a JAR file. Now it must be remembered a JAR file is not simple a ".jar file". Instead it is a collection of different types of files. A JAR file is essentially a zip-compressed archive, and like other zip archives, it can include multiple files and directories.
 The "Snapshot File" is a collection of files that make up the entire `smallMaven` project in its current interim state. It includes compiled Java bytecode, resource files, and other project-related files.
 In other words, a "Snapshot File" makes sharing a Project very much easier.
 
