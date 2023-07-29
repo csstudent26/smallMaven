@@ -1,1 +1,46 @@
-# smallMaven
+# smallMaven Project
+
+The `smallMaven` project is a demonstration of the simplicity and power of Maven. It contains a Java application that utilizes a login method to take information from users. The project includes a resource file, a class for application logic, and test classes using JUnit for testing.
+
+## Contents
+
+- [What is a Maven Project?](#what-is-a-maven-project)
+- [What is a Snapshot Java File?](#what-is-a-snapshot-java-file)
+- [Project Purpose](#project-purpose)
+- [Project Structure](#project-structure)
+- [Dependencies](#dependencies)
+- [Minimum Java Version](#minimum-java-version)
+
+## What is a Maven Project?
+
+A Maven project is a software project managed by the Apache Maven build automation tool. Maven provides a consistent and organized way to manage project dependencies, build, test, and deploy applications. It uses XML-based project object model (POM) files to define project settings, dependencies, and goals. With Maven, developers can easily build, test, and manage Java projects without worrying about complex build scripts.
+
+## What is a Snapshot Java File?
+
+In software development, a "Snapshot" generally refers to an interim version of a project that is still under active development and subject to changes. In the context of this `smallMaven` project, a "Snapshot Java File" is a version of the Java source code that is actively being developed and is not yet considered stable or final.
+
+## Project Purpose
+
+The purpose of the `smallMaven` project is to demonstrate the basic usage of Maven for managing a Java application. It includes a simple login method that takes user information and checks it against predefined values in the `config.properties` file.
+
+## Project Structure
+
+- `src/main/java/pac01/App.java`: Contains the main Java application class `App`, which includes the login method.
+- `src/test/java/pac02/AppTest.java`: Contains JUnit test classes `AppTest` with two test methods to test the `login` method of the `App` class.
+- `config.properties`: A resource file containing predefined username and password values.
+- `pom.xml`: The Maven project configuration file defining dependencies and build settings.
+
+## Dependencies
+
+The `smallMaven` project uses JUnit for testing purposes. The JUnit dependency is declared in the `pom.xml` file, making it easy to run unit tests using Maven.
+
+## Minimum Java Version
+
+This project requires at least Java 7 (JRE 1.7) to compile and run correctly. The `pom.xml` file specifies the source and target compatibility settings to ensure compatibility with Java 7.
+
+## Building and Testing
+
+To build the project and run the tests, execute the following command:
+
+```bash
+mvn test
