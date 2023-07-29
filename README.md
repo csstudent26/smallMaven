@@ -43,7 +43,7 @@ This project requires at least Java 7 (JRE 1.7) to compile and run correctly. Th
 
 1. **Download the Snapshot File**:
 
-   - Go to the GitHub repository where the `smallMaven` project is hosted: [https://github.com/csstudent26/smallMaven](https://github.com/csstudent26/smallMaven).
+   
    - Click on the file named `smallMaven-0.0.1-SNAPSHOT.jar` in the list of files.
    - On the file page, click the "Download" button to download the Snapshot file to your computer.
    - Once the file is downloaded, you can place it in a directory of your choice on your computer.
