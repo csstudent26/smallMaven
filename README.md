@@ -15,9 +15,13 @@ The `smallMaven` project is a demonstration of the simplicity and power of Maven
 
 A Maven project is a software project managed by the Apache Maven build automation tool. Maven provides a consistent and organized way to manage project dependencies, build, test, and deploy applications. It uses XML-based project object model (POM) files to define project settings, dependencies, and goals. With Maven, developers can easily build, test, and manage Java projects without worrying about complex build scripts.
 
-## What is a Snapshot Java File?
+##  What is a Snapshot File?
 
-In software development, a "Snapshot" generally refers to an interim version of a project that is still under active development and subject to changes. In the context of this `smallMaven` project, a "Snapshot Java File" is a version of the Java source code that is actively being developed and is not yet considered stable or final.
+The "Snapshot File" is a collection of files that make up the entire `smallMaven` project in its current interim state. It includes compiled Java bytecode, resource files, and other project-related files.
+
+To allow others to use the `smallMaven` project, the Snapshot file is available for download. Users can access the project as it exists at a specific point in time, though it may not represent the final or stable version of the project.
+
+
 
 ## Project Purpose
 
