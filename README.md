@@ -6,6 +6,7 @@ The `smallMaven` project is a demonstration of the simplicity and power of Maven
 
 - [What is a Maven Project?](#what-is-a-maven-project)
 - [What is a Snapshot Java File?](#what-is-a-snapshot-java-file)
+- [Importance of Testing Software and Mavens Support).
 - [Project Purpose](#project-purpose)
 - [Project Structure](#project-structure)
 - [Dependencies](#dependencies)
