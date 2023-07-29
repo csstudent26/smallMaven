@@ -38,9 +38,51 @@ The `smallMaven` project uses JUnit for testing purposes. The JUnit dependency i
 
 This project requires at least Java 7 (JRE 1.7) to compile and run correctly. The `pom.xml` file specifies the source and target compatibility settings to ensure compatibility with Java 7.
 
-## Building and Testing
 
-To build the project and run the tests, execute the following command:
+### How to Use the Snapshot File
 
-```bash
-mvn test
+1. **Download the Snapshot File**:
+
+   - Go to the GitHub repository where the `smallMaven` project is hosted: [https://github.com/csstudent26/smallMaven](https://github.com/csstudent26/smallMaven).
+   - Click on the file named `smallMaven-0.0.1-SNAPSHOT.jar` in the list of files.
+   - On the file page, click the "Download" button to download the Snapshot file to your computer.
+   - Once the file is downloaded, you can place it in a directory of your choice on your computer.
+
+2. **Using the Snapshot File in an IDE**:
+
+   To use the Snapshot file in an IDE like Eclipse or IntelliJ IDEA, follow these steps:
+
+   - **Eclipse IDE**:
+
+     - Open Eclipse IDE.
+     - Create a new Java project in Eclipse.
+     - Right-click on the project and select "Import."
+     - Choose "General" and then "File System."
+     - Browse to the directory where the downloaded Snapshot file is located.
+     - Select the `smallMaven-0.0.1-SNAPSHOT.jar` file.
+     - Click "Finish" to import the JAR file as a library in the project.
+
+   - **IntelliJ IDEA**:
+
+     - Open IntelliJ IDEA.
+     - Create a new Java project in IntelliJ IDEA.
+     - Go to "Open Module Settings."
+     - In the "Dependencies" tab, click the "+" button and choose "JARs or directories."
+     - Browse to the directory where the downloaded Snapshot file is located.
+     - Select the `smallMaven-0.0.1-SNAPSHOT.jar` file.
+     - Click "OK" to add the JAR file as a library in the project.
+
+3. **Using the Classes in the Snapshot JAR**:
+
+   Now you can use the classes contained in the Snapshot JAR within your own Java code. For example, you can create new instances of classes or call methods defined in the `smallMaven` project.
+
+   It's important to note that the Snapshot file contains the project's interim version, and it may not be a stable or finalized version of the project.
+
+---
+
+Feel free to customize this `README.md` file further to include any additional details or context about your project. Users visiting your GitHub repository will now have instructions on how to download and use the Snapshot file in their preferred IDE for exploration and testing purposes.
+
+If you have any other specific requirements or need further assistance, please let me know!
+
+
+
