@@ -80,9 +80,7 @@ This project requires at least Java 7 (JRE 1.7) to compile and run correctly. Th
 
 ---
 
-Feel free to customize this `README.md` file further to include any additional details or context about your project. Users visiting your GitHub repository will now have instructions on how to download and use the Snapshot file in their preferred IDE for exploration and testing purposes.
 
-If you have any other specific requirements or need further assistance, please let me know!
 
 
 
